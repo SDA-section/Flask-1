@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+main{
+    padding:10px;
+}
+ul{
+    padding:0 20px
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+body{
+    min-height:100vh
+}
+
+
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    text-align:center
+}
